@@ -105,3 +105,13 @@ a {
     color-scheme: dark;
   }
 }
+nav{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-block: 2rem;
+  font-size: large;
+}
+nav li{
+  list-style: none;
+}
