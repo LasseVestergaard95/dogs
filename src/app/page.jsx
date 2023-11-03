@@ -12,7 +12,8 @@ export default async function Home() {
   return (
     <main>
       <h1>Hej</h1>
-      <img src={data.message} alt="" />
+      <div className="random-dog">
+      <img src={data.message} alt="" /></div>
     </main>
   );
 }

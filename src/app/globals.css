@@ -119,3 +119,11 @@ img{
   height: auto;
   width: auto;
 }
+
+main img{
+  width: 15rem;
+}
+main{
+  padding-inline: 5%;
+  margin-inline: auto;
+}
