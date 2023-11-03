@@ -15,7 +15,16 @@ export default async function Henry() {
   console.log(data);
   return (
     <main>
-      <Image src={data.image.url} alt={data.name} width={data.image.width} height={data.image.height} priority={true} />
+      <Image
+        src={data.image.url}
+        alt={data.name}
+        width={data.image.width}
+        height={data.image.height}
+        priority={true}
+        sizes="(max-width: 768px) 100vw,
+	(max-width: 1200px) 50vw,
+  400px"
+      />
       <h1>{data.name}</h1>
       <h2>{data.age}år</h2>
       <h3>I love {data.favouriteColor}</h3>

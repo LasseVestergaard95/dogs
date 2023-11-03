@@ -115,3 +115,7 @@ nav{
 nav li{
   list-style: none;
 }
+img{
+  height: auto;
+  width: auto;
+}
